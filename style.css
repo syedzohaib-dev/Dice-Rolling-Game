@@ -1,0 +1,231 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(7, 19, 45);
+    background: linear-gradient(90deg, rgb(11, 29, 68) 0%, rgba(29, 181, 133, 1) 55%, rgba(10, 203, 234, 1) 100%);
+}
+
+.model {
+    width: 680px;
+    height: 400px;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.newGame {
+    position: absolute;
+    top: 20px;
+    width: 110px;
+    font-size: 0.85rem;
+    height: 30px;
+
+}
+
+.diceRolling {
+    width: 80px;
+    height: 80px;
+    /* border: 1px solid white; */
+    position: absolute;
+    top: 120px;
+    border-radius: 10px;
+
+}
+
+.diceRolling img {
+    width: 80px;
+    height: 80px;
+}
+
+.roll-hold {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    position: absolute;
+    top: 250px;
+}
+
+.roll-dice-btn {
+    width: 100px;
+    height: 30px;
+    margin-top: 5px;
+    font-size: 0.85rem;
+    margin-bottom: 5px;
+}
+
+.hold-dice-btn {
+    width: 80px;
+    height: 30px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 0.85rem;
+}
+
+.box-1 {
+    width: 50%;
+    height: 400px;
+    /* border: 2px solid black; */
+    background-color: #a4b8b7;
+
+
+}
+
+.box-2 {
+    width: 50%;
+    height: 400px;
+    /* border: 2px solid black; */
+    background-color: #72c8b8;
+    /* opacity: 0.8; */
+
+}
+
+.player-1 {
+    width: 100%;
+    height: 100px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.player-1-number {
+    width: 100%;
+    height: 100px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.player-1-current {
+    width: 100%;
+    height: 197px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.player-1 p {
+    font-size: 1.5rem;
+    font-weight: 700;
+
+}
+
+.player-1-number p {
+    font-size: 4rem;
+    font-weight: 500;
+    color: #c7365f;
+}
+
+.current-box-1 {
+    height: 90px;
+    width: 140px;
+    border: 1px solid #c7365f;
+    border-radius: 5px;
+    background-color: #c7365f;
+    color: white;
+}
+
+.current-p {
+    height: 45px;
+    width: 140px;
+    font-size: 0.75rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.current-number {
+    height: 45px;
+    width: 140px;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+
+
+
+}
+
+/* Player --2-- Detail */
+
+.player-2 {
+    width: 100%;
+    height: 100px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.player-2-number {
+    width: 100%;
+    height: 100px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.player-2-current {
+    width: 100%;
+    height: 197px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.player-2 p {
+    font-size: 1.5rem;
+    font-weight: 700;
+
+}
+
+.player-2-number p {
+    font-size: 4rem;
+    font-weight: 500;
+    color: #c7365f;
+}
+
+.current-box-2 {
+    height: 90px;
+    width: 140px;
+    border: 1px solid #c7365f;
+    border-radius: 5px;
+    background-color: #c7365f;
+    color: white;
+}
+
+.current-p {
+    height: 45px;
+    width: 140px;
+    font-size: 0.75rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.current-number {
+    height: 45px;
+    width: 140px;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
