@@ -6,27 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Roll-Dice</title>
     <link rel="stylesheet" href="style.css">
-
 </head>
 
 <body>
 
     <div class="container">
         <div class="model">
-            <button class="newGame" type="button">NEW GAME</button>
-            <div class="diceRolling"><img
-                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Die_face_6b.svg/800px-Die_face_6b.svg.png"
-                    alt="">
+            <button class="newGame" type="button">NEW-GAME</button>
+            <div class="diceRolling"><img src="./assets/dice-5.webp" class="dice" alt="">
             </div>
             <div class="roll-hold">
                 <button type="button" class="roll-dice-btn">ROLL DICE</button>
                 <button type="button" class="hold-dice-btn">HOLD</button>
             </div>
-            <div class="box-1">
-                <div class="player-1">
+            <div class="box-1 player_0 player_active">
+                <div class="player-1 name" id="name_0">
                     <p>PLAYER 1</p>
                 </div>
-                <div class="player-1-number">
+                <div class="player-1-number score" id="score_0">
                     <p>0</p>
                 </div>
                 <div class="player-1-current">
@@ -34,17 +31,18 @@
                         <div class="current-p">
                             <p>CURRENT</p>
                         </div>
-                        <div class="current-number">
-                            <p>5</p>
+                        <div class="current-number current" id="current_0">
+                            <p>0</p>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="box-2">
-                <div class="player-2">
+
+            <div class="box-2 player_1">
+                <div class="player-2" id="name_1">
                     <p>PLAYER 2</p>
                 </div>
-                <div class="player-2-number">
+                <div class="player-2-number" id="score_1">
                     <p>1</p>
                 </div>
                 <div class="player-2-current">
@@ -52,7 +50,7 @@
                         <div class="current-p">
                             <p>CURRENT</p>
                         </div>
-                        <div class="current-number">
+                        <div class="current-number" id="current_1">
                             <p>0</p>
                         </div>
                     </div>
@@ -61,6 +59,20 @@
         </div>
     </div>
 
+
+    <!-- Counter -->
+    <!-- 
+    <h2>counter</h2>
+    <div class="counter" id="counter"></div>
+    <div class="buttons">
+        <button id="increase">Increase</button>
+        <button id="decrease">Decrease</button>
+        <button id="reset">Reset</button>
+    </div> -->
+
+
+
+    <script src="app.js"></script>
 </body>
 
 </html>
